@@ -23,7 +23,6 @@ export const Primary = Template.bind({});
 Primary.args = {
   label: 'Button',
   mode: 'primary',
-  // primary: 'storybook-button--primary',
 };
 
 export const Secondary = Template.bind({});
@@ -48,7 +47,6 @@ export const irenebutton = Template.bind({});
 irenebutton.args = {
   label: 'ireneButton',
   mode: 'irenebutton',
-  // irenebutton: 'storybook-button--irenebutton',
   size: 'small',
   backgroundColor: 'purple',
   color: 'white'
@@ -60,10 +58,3 @@ export const Default = () => ({
     button: label,
   },
 });
-
-// export const withKnobs = () => ({
-//   component: Button,
-//   props: {
-//     // text: text('text', 'Hello Storybook'), // The first param of the knob function has to be exactly the same as the component input.
-//   },
-// });
